@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.mainInfoContainer {
+  max-width: 800px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.eventImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.eventName {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.eventInfo {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.seatInfoContainer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.seatInfoContainer h2 {
+  margin-bottom: 15px;
+}
+
+.buyTicketsButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}   

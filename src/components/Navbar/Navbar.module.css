@@ -1,0 +1,21 @@
+.navbarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: lightgray;
+    color: white;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.searchInput {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+}

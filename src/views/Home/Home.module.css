@@ -1,0 +1,50 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.page {
+    font-size: 20px;
+    padding: 0px 8px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.previous,
+.next {
+    font-size: 20px;
+    padding: 0px 8px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.previous {
+    margin-right: 10px;
+}
+
+.next {
+    margin-left: 10px;
+}
+
+.pageItem {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.activePage {
+    background-color: #fff;
+    color: #000;
+}
+
+.disabledPage {
+    color: #888;
+    cursor: not-allowed;
+}
